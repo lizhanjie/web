@@ -20,52 +20,83 @@ WEB前端经历着风起雨涌，日新月异的变化。从静态走向动态�
 
 总的来说，他的设计思路是这样的：
   （1）借鉴C语言的基本语法；
+  
   （2）借鉴Java语言的数据类型和内存管理；
+  
   （3）借鉴Scheme语言，将函数提升到"第一等公民"（first class）的地位；
+  
   （4）借鉴Self语言，使用基于原型（prototype）的继承机制。
 
 
 #### WEB前后端
 
 WEB前端主要包括Javacript，Html，Css三门基础语言。
+
 语法：主要是用的ES6，ES7，SASS，LESS，JADE等语法；
+
 打包器：Webpack等；
+
 构建工具：Gulp、Grunt等；
+
 模板引擎：Juicer、doT、Nunjucks等；
+
 DOM操作库：Jquery，Zepto等；
+
 框架：Vue、React、Angular等；
+
 WEB服务端主要是Node平台。
+
 语法：主要是用的ES6，ES7语法;
+
 I/O：非阻塞；
+
 驱动：事件驱动；
+
 线程：单线程；
+
 宿主：V8虚拟机；
+
 框架：KOA、EXPRESS
+
 
 #### 开发规范
 
 W3C标准，用来规范结构（Structure）、表现（Presentation）和行为（Behavior）。
+
 推荐配置：
+
 Javascript：Eslint（standard）
+
 Html：W3C标准（语义化）
+
 Css：W3C标准（简洁化）
+
 
 #### 工具
 
 脚手架工具（generator），统一组件的构建方式
+
 framework，对EGG一些请求和认证等的封装
+
 代码仓库（git），管理代码仓库
+
 辅助工具（f2e），对上传，EGG的包等进行构建
+
 npm脚本，对一些日常提交，起动环境等进行封装
+
 云凤蝶，可配置的静态模板引擎
+
 python
+
 ...
+
 
 #### 组件
 
 `站在巨人的肩上，我们能走的更高`
 
 好的组件能加快项目构建速度，比如认为比较优秀的组件库如：Ant Design、Element UI、React系列等。
+
 目前WEB前端组已经沉淀出很多高服用的组件，如Stroage、DataPicker系列、AppBridge、ComImg等等，已应用到各个业务线，至少可以提高5-7倍的人效，同时还沉淀出相关的技术文档，降低了后期的维护成本。
 
 #### 技术选型
